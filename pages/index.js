@@ -84,9 +84,9 @@ const Aboutuswapper = styled.div`
 const content =
   "It should not be neglected that the accurate predictions of the operational system will require a vast knowledge. To be more specific, any part of the deep analysis makes no difference to The Assistance of Technology-Driven Idea George Albrecht in The Book of ";
 const serviesdata = [
-  { name: "Web Design", content, Svg: Webdesign },
-  { name: "Web Development", content, Svg: Webdev },
-  { name: "E-commerce", content, Svg: Ecom },
+  { name: "Web Design", content, Svg: Webdesign, goto: "/webdesign" },
+  { name: "Web Development", content, Svg: Webdev, goto: "/webdesign" },
+  { name: "E-commerce", content, Svg: Ecom, goto: "/webdesign" },
 ];
 const Home = () => (
   <MainWapper>
@@ -108,13 +108,13 @@ const Home = () => (
         info="Moreover, the utilization of the mechanism should help in resolving present challenges. What is more, the raw draft of the "
       />
       <SubtitlegridWapper>
-        {serviesdata.map(({ name, Svg, content }, i) => {
+        {serviesdata.map(({ name, Svg, content, goto }, i) => {
           return (
             <div key={i}>
               <div>
                 <h2>{`${i + 1}.${name}`}</h2>
                 <p>{content}</p>
-                <Button text="View Prices" />
+                <Button text="View Prices" goto={goto} />
               </div>
               <Svg />
             </div>
