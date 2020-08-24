@@ -39,7 +39,7 @@ const Contactuscontiner = styled.div`
       }
       & > input {
         font-size: 3rem;
-        background-color: #fff2f2;
+        background: transparent;
         border: none;
         border-bottom: 2px solid #ffa3c8;
       }

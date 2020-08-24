@@ -1,0 +1,263 @@
+<svg width="1089px" height="792px" viewBox="0 0 1089 792" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient x1="0.562994957" y1="1.11379373" x2="0.562994957" y2="0.113757744" id="gradient_1">
+      <stop offset="0" stop-color="#808080" stop-opacity="0.2509804" />
+      <stop offset="0.54" stop-color="#808080" stop-opacity="0.121568628" />
+      <stop offset="1" stop-color="#808080" stop-opacity="0.101960786" />
+    </linearGradient>
+    <linearGradient x1="357.66" y1="752.53" x2="357.66" y2="310.18" id="gradient_2" />
+    <linearGradient x1="211.31" y1="788.29" x2="211.31" y2="442.62" id="gradient_3" />
+  </defs>
+  <g id="undraw_in_sync_xwsa" transform="translate(1 1)">
+    <path d="M0 0L1086.82 0L1086.82 789.35L0 789.35L0 0Z" id="Background" fill="none" stroke="none" />
+    <path d="M151.447 0.0701141C143.387 -0.159889 135.127 0.0701141 127.567 2.39011C106.997 8.71011 97.2468 29.3901 100.417 47.2601C103.587 65.1301 116.627 80.7001 130.157 94.9301C143.687 109.16 158.347 123.23 165.767 140.24C169.467 148.73 171.197 158.24 167.437 166.72C161.637 179.79 144.147 187.09 127.357 188.61C110.567 190.13 93.7068 187.17 76.8568 186.18C69.7868 185.77 62.5168 185.72 55.8568 187.63C48.5468 189.71 42.4568 193.96 36.8568 198.39C14.9668 215.75 -2.55321 239.46 0.306789 264.33C3.50679 292.56 32.0468 314.87 63.3068 326.84C73.6568 330.84 84.6068 334.02 93.7168 339.68C117.717 354.61 123.107 382.61 120.717 407.32C118.327 432.03 110.187 456.77 114.717 481.26C120.047 509.75 143.637 535.49 175.457 547.51C203.807 558.22 239.287 557.51 264.457 542.4C276.727 535.02 286.007 524.77 294.077 514.17C306.059 498.516 315.959 481.373 323.527 463.17C327.037 454.68 330.337 445.55 338.527 439.65C343.527 436.02 350.007 433.99 356.417 432.41C375.737 427.65 396.087 426.35 415.587 422.11C435.087 417.87 454.657 409.96 465.257 395.83C480.257 375.83 473.257 350.21 473.327 326.69C473.447 273.03 512.437 225 526.827 172.69C531.527 155.6 533.277 136.69 522.777 121.44C515.647 111.09 503.617 103.62 490.977 97.8502C463.167 85.1602 431.557 79.5102 400.467 74.0102C357.257 66.3702 304.787 65.3802 271.297 40.6602C239.207 16.9801 195.237 0.0701141 151.447 0.0701141L151.447 0.0701141Z" transform="translate(1.963135 43.54993)" id="Shape" fill="#6C63FF" fill-opacity="0.2" stroke="none" />
+    <g id="Group" transform="translate(24.79297 321.3354)" opacity="0.5">
+      <path d="M2.54694 28.0145C0.406937 31.1745 -1.35307 35.7645 1.44694 41.1145C6.94694 51.6145 20.5469 49.4545 27.1569 59.5045C28.9231 62.2895 29.9076 65.4983 30.0069 68.7946C30.2569 74.4846 28.4969 78.9646 27.5869 83.9745C26.3968 89.8829 27.3243 96.0216 30.2069 101.315C33.4517 106.84 38.3483 111.209 44.2069 113.805C49.3269 116.065 54.2069 116.645 59.1069 117.745C65.1856 119.139 71.1062 121.149 76.7769 123.745C79.4721 124.875 82.0072 126.354 84.3169 128.145C87.1341 130.617 89.6908 133.371 91.9469 136.364L113.217 162.624C115.92 166.165 118.931 169.458 122.217 172.465C125.801 175.356 129.74 177.779 133.937 179.675C142.427 183.905 151.307 188.235 158.677 187.745C166.047 187.255 171.167 180.145 167.677 170.205C164.377 160.745 155.077 152.775 150.857 143.335C144.207 128.455 152.917 117.335 147.347 102.435C142.007 88.1146 127.037 78.5146 117.477 65.4346C110.617 56.1345 106.797 45.3145 100.617 35.5445C91.6169 21.5445 78.2169 10.8345 65.6169 5.41452C54.5357 0.703735 42.4014 -0.97699 30.4569 0.544525C25.8969 1.04453 21.4069 1.89453 18.1669 4.62451C14.7269 7.52451 15.1669 12.9445 12.9269 16.7945C10.3569 21.2245 5.45693 23.7345 2.54694 28.0145L2.54694 28.0145Z" id="Shape" fill="#6C63FF" fill-opacity="0.5" stroke="none" />
+      <path d="M0 0C0 0 106.48 99.55 149.42 177.06" transform="translate(15.89693 7.874512)" id="Shape" fill="none" stroke="#535461" stroke-opacity="0.5" stroke-width="2" />
+      <path d="M0 0.915558C0 0.915558 42.55 -7.35443 72 25.8156" transform="translate(1.856934 40.80896)" id="Shape" fill="none" stroke="#535461" stroke-opacity="0.5" stroke-width="2" />
+      <path d="M0 19.7266C0 19.7266 47 -13.1434 63.26 5.97662" transform="translate(32.09694 84.5079)" id="Shape" fill="none" stroke="#535461" stroke-opacity="0.5" stroke-width="2" />
+      <path d="M0.631836 0C0.631836 0 -4.31816 25.16 13.4918 66.26" transform="translate(64.78511 5.17453)" id="Shape" fill="none" stroke="#535461" stroke-opacity="0.5" stroke-width="2" />
+      <path d="M37.6 0C37.6 0 33.44 16.5 0 4.37" transform="translate(109.6969 102.8245)" id="Shape" fill="none" stroke="#535461" stroke-opacity="0.5" stroke-width="2" />
+      <path d="M0 35.17C0 35.17 20.41 11.58 11.13 0" transform="translate(113.3469 125.3745)" id="Shape" fill="none" stroke="#535461" stroke-opacity="0.5" stroke-width="2" />
+    </g>
+    <path d="M7.31813 59.6279C2.31813 65.5379 -2.36187 73.7179 1.31813 81.7879C8.39813 97.6279 34.6081 89.8779 43.9581 104.628C46.7581 109.038 47.1381 114.428 46.4881 119.238C45.2281 128.648 40.5681 136.638 37.3481 145.238C34.1281 153.838 32.4581 164.238 36.9981 173.318C41.3681 182.108 50.5781 187.658 59.4981 189.868C68.4181 192.078 77.3581 191.578 86.2681 191.868C96.8532 192.283 107.363 193.832 117.618 196.488C122.125 197.508 126.44 199.244 130.398 201.628C134.948 204.538 138.628 208.808 142.228 213.008L174.228 250.298C178.478 255.298 182.818 260.298 188.088 263.968C194.168 268.198 201.088 270.348 207.898 272.418C222.548 276.898 237.898 281.418 251.898 278.348C265.898 275.278 277.648 261.898 274.148 246.408C270.818 231.658 255.798 221.198 250.738 206.748C242.738 183.978 262.488 162.858 256.558 139.688C250.878 117.468 225.698 106.008 211.698 87.1979C201.698 73.7179 197.758 56.8579 189.018 42.5179C176.398 21.8179 154.398 8.10786 132.498 2.89787C110.598 -2.31212 88.5681 0.117874 68.0281 5.32787C59.3281 7.53787 50.6281 10.3279 43.7281 15.8479C36.3981 21.7179 35.5581 30.6279 30.2181 37.7079C24.0281 45.9379 14.0581 51.6279 7.31813 59.6279L7.31813 59.6279Z" transform="translate(0.01196289 174.2522)" id="Shape" fill="#6C63FF" stroke="none" />
+    <path d="M0 0C0 0 169.67 133.5 226.76 249.6" transform="translate(38.47998 196.28)" id="Shape" fill="none" stroke="#535461" stroke-width="2" />
+    <path d="M0 7.63037C0 7.63037 82.37 -19.0196 127.54 27.2904" transform="translate(1.870117 249.2496)" id="Shape" fill="none" stroke="#535461" stroke-width="2" />
+    <path d="M0 48.3185C0 48.3185 98.11 -20.6815 122.91 6.22849" transform="translate(39.66992 303.5615)" id="Shape" fill="none" stroke="#535461" stroke-width="2" />
+    <path d="M6.45714 0C6.45714 0 -10.4529 43.39 10.4571 106.46" transform="translate(125.803 176.76)" id="Shape" fill="none" stroke="#535461" stroke-width="2" />
+    <path d="M71.9 0C71.9 0 59.09 28.73 0 18.68" transform="translate(184.4099 314.5701)" id="Shape" fill="none" stroke="#535461" stroke-width="2" />
+    <path d="M0 62C0 62 45.47 16.52 31.57 0" transform="translate(175.1001 358.98)" id="Shape" fill="none" stroke="#535461" stroke-width="2" />
+    <path d="M0 124.52C0 55.7495 208.188 0 465 0C721.812 0 930 55.7495 930 124.52C930 193.29 721.812 249.04 465 249.04C208.188 249.04 0 193.29 0 124.52Z" transform="translate(152.97 522.6399)" id="Ellipse" fill="#6C63FF" fill-opacity="0.1" stroke="none" />
+    <path d="M50.28 0C50.28 0 14.45 35.83 34.68 89C54.9101 142.17 0 230.59 0 230.59C0 230.59 0.590027 230.5 1.67999 230.31C75.27 217.31 111.84 133.15 70.92 70.62C55.71 47.38 43.22 20.12 50.28 0L50.28 0Z" transform="translate(929.8701 0.4100342)" id="Shape" fill="#6C63FF" stroke="none" />
+    <path d="M50.28 0C50.28 0 30.05 43.92 50.28 79.75C70.51 115.58 53.75 216.14 0 230.59" transform="translate(929.8699 0.4100342)" id="Shape" fill="none" stroke="#535461" stroke-width="2" />
+    <path d="M123.23 0.447494C123.23 0.447494 82.34 -6.0625 78.62 30.5775C74.9 67.2175 0 72.2975 0 72.2975L1.40002 73.2275C63.24 113.817 122.4 99.0875 113.4 45.2275C110.13 25.1475 110.4 4.98749 123.23 0.447494L123.23 0.447494Z" transform="translate(920.74 144.8926)" id="Shape" fill="#6C63FF" stroke="none" />
+    <path d="M123.23 0.447494C123.23 0.447494 82.34 -6.0625 78.62 30.5775C74.9 67.2175 0 72.2975 0 72.2975L1.40002 73.2275C63.24 113.817 122.4 99.0875 113.4 45.2275C110.13 25.1475 110.4 4.98749 123.23 0.447494L123.23 0.447494Z" transform="translate(920.74 144.8926)" id="Shape" fill="#F5F5F5" fill-opacity="0.2" stroke="none" />
+    <path d="M123.23 0C123.23 0 91.49 7 94.1 35.82C96.71 64.64 46.97 99.27 0 71.82" transform="translate(920.74 145.34)" id="Shape" fill="none" stroke="#535461" stroke-width="2" />
+    <path d="M5.21948 143.67C5.21948 143.67 -8.04053 98.6701 7.70947 65.5301C14.4016 51.6772 16.4193 36.0273 13.4595 20.9301C11.9996 13.7753 9.88748 6.76936 7.14944 0" transform="translate(241.4805 136.13)" id="Shape" fill="none" stroke="#535461" stroke-width="2" />
+    <path d="M20 10C20 15.52 10 31.51 10 31.51C10 31.51 0 15.51 0 10C0 4.47716 4.47714 0 10 0C15.5229 0 20 4.47716 20 10L20 10Z" transform="translate(238.4099 105.1801)" id="Shape" fill="#6C63FF" stroke="none" />
+    <path d="M20.08 15.8119C17.08 20.4419 0 28.4419 0 28.4419C0 28.4419 0.309998 9.58189 3.31 4.95189C5.16833 1.77411 8.62238 -0.125687 12.3013 0.00646973C15.9802 0.138641 19.289 2.28137 20.9145 5.58429C22.5401 8.88722 22.2195 12.8162 20.08 15.8119L20.08 15.8119Z" transform="translate(254.8501 129.9281)" id="Shape" fill="#6C63FF" stroke="none" />
+    <path d="M23.71 19.103C18.78 21.583 0 19.873 0 19.873C0 19.873 9.79001 3.75302 14.71 1.27301C17.9171 -0.521317 21.85 -0.411972 24.9525 1.55775C28.055 3.5275 29.8271 7.04022 29.5676 10.706C29.3082 14.3718 27.059 17.5999 23.71 19.113L23.71 19.103Z" transform="translate(250.5 178.8569)" id="Shape" fill="#6C63FF" stroke="none" />
+    <path d="M23.24 18.3187C18.8 21.5987 0 23.0787 0 23.0787C0 23.0787 6.92001 5.53873 11.36 2.25873C14.2154 -0.0761719 18.1244 -0.649597 21.5301 0.766785C24.9359 2.18317 27.2854 5.35938 27.643 9.03052C28.0006 12.7017 26.3083 16.2716 23.24 18.3187L23.24 18.3187Z" transform="translate(241.53 219.0212)" id="Shape" fill="#6C63FF" stroke="none" />
+    <path d="M3.37756 17.4829C7.37756 21.3229 25.7675 25.3129 25.7675 25.3129C25.7675 25.3129 21.2575 7.00288 17.2975 3.16289C14.778 0.473892 10.9838 -0.611572 7.42334 0.337997C3.86288 1.28758 1.11313 4.1183 0.267303 7.70483C-0.578552 11.2914 0.616547 15.0525 3.37753 17.4929L3.37756 17.4829Z" transform="translate(230.5024 141.9572)" id="Shape" fill="#6C63FF" stroke="none" />
+    <path d="M5.11914 18.719C10.0491 21.199 28.8291 19.489 28.8291 19.489C28.8291 19.489 19.0391 3.36902 14.1191 0.889008C9.23807 -1.31636 3.48605 0.715775 1.07355 5.49788C-1.33896 10.28 0.444824 16.1138 5.11914 18.729L5.11914 18.719Z" transform="translate(218.2908 186.921)" id="Shape" fill="#6C63FF" stroke="none" />
+    <path d="M3.67026 17.7421C8.11026 21.0221 26.9102 22.5021 26.9102 22.5021C26.9102 22.5021 19.9902 4.96213 15.5503 1.68213C11.113 -1.27826 5.13318 -0.23468 1.96094 4.05371C-1.21133 8.34213 -0.459167 14.3655 3.67026 17.7421L3.67026 17.7421Z" transform="translate(215.7397 234.1979)" id="Shape" fill="#6C63FF" stroke="none" />
+    <path d="M805.279 428.62L890.369 428.62C892.374 428.608 894.302 429.396 895.724 430.81C897.147 432.224 897.946 434.147 897.945 436.152L897.945 442.223C897.945 465.496 879.079 484.363 855.805 484.363L42.1254 484.363C18.8521 484.354 -0.00805664 465.481 0 442.223L0 436.152C-1.52588e-05 431.994 3.37128 428.622 7.53 428.622L95.63 428.622C93.6605 424.689 92.6331 420.352 92.6288 415.95L92.6288 28.49C92.6288 12.7554 105.384 1.52588e-05 121.119 0L779.789 0C795.516 0.000152588 808.268 12.7435 808.279 28.47L808.279 415.95C808.275 420.349 807.248 424.687 805.279 428.62ZM358.779 444.43L366.079 452.72L531.809 452.72L539.889 444.43L358.779 444.43Z" transform="translate(182.0413 112.88)" id="Shape" fill="url(#gradient_1)" fill-rule="evenodd" stroke="none" />
+    <path d="M0 0L699.44 0L699.44 434.39L0 434.39L0 0Z" transform="translate(282.74 118.35)" id="Rectangle" fill="#535461" stroke="none" />
+    <path d="M0 0L668.52 0L668.52 354.87L0 354.87L0 0Z" transform="translate(297.47 181.67)" id="Rectangle" fill="#F1F1F4" stroke="none" />
+    <path d="M0 5.89C0 2.63704 2.63704 0 5.89 0C9.14296 0 11.78 2.63704 11.78 5.89C11.78 9.14296 9.14296 11.78 5.89 11.78C2.63704 11.78 0 9.14296 0 5.89Z" transform="translate(625.8398 144.85)" id="Circle" fill="#EEEEEE" stroke="none" />
+    <path d="M542.77 0L519.77 23.56L357.77 23.56L337.01 0L7.36 0C3.2952 0 1.52588e-05 3.29517 0 7.35999L0 13.3C1.52588e-05 24.2303 4.34547 34.7122 12.0791 42.4363C19.8126 50.1605 30.2998 54.4932 41.23 54.48L836.43 54.48C859.173 54.48 877.61 36.0431 877.61 13.3L877.61 7.35999C877.61 3.29517 874.315 0 870.25 0L542.77 0Z" transform="translate(192.1799 537.27)" id="Shape" fill="#535461" stroke="none" />
+    <path d="M0 0L182.77 0L182.77 137.74L0 137.74L0 0Z" transform="translate(338.3 208.71)" id="Rectangle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L60.92 0L60.92 34.43L0 34.43L0 0Z" transform="translate(356.1799 220.63)" id="Rectangle" fill="#6C63FF" fill-opacity="0.2" stroke="none" />
+    <path d="M0 0L71.52 0L71.52 7.95L0 7.95L0 0Z" transform="translate(431.6699 220.63)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L50.33 0L50.33 7.95L0 7.95L0 0Z" transform="translate(431.6699 233.87)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L71.52 0L71.52 7.95L0 7.95L0 0Z" transform="translate(431.6699 247.11)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(356.1799 260.36)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(356.1799 273.6)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(356.1799 286.85)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L135.09 0L135.09 7.95L0 7.95L0 0Z" transform="translate(356.1799 300.09)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(356.1799 313.33)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(356.1799 326.58)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L182.77 0L182.77 137.74L0 137.74L0 0Z" transform="translate(539.6099 208.71)" id="Rectangle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L60.92 0L60.92 34.43L0 34.43L0 0Z" transform="translate(557.48 220.63)" id="Rectangle" fill="#6C63FF" fill-opacity="0.2" stroke="none" />
+    <path d="M0 0L71.52 0L71.52 7.95L0 7.95L0 0Z" transform="translate(632.98 220.63)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L50.33 0L50.33 7.95L0 7.95L0 0Z" transform="translate(632.98 233.87)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L71.52 0L71.52 7.95L0 7.95L0 0Z" transform="translate(632.98 247.11)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(557.48 260.36)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(557.48 273.6)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(557.48 286.85)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L135.09 0L135.09 7.95L0 7.95L0 0Z" transform="translate(557.48 300.09)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(557.48 313.33)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(557.48 326.58)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L182.77 0L182.77 137.74L0 137.74L0 0Z" transform="translate(740.9099 208.71)" id="Rectangle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L60.92 0L60.92 34.43L0 34.43L0 0Z" transform="translate(758.79 220.63)" id="Rectangle" fill="#6C63FF" fill-opacity="0.2" stroke="none" />
+    <path d="M0 0L71.52 0L71.52 7.95L0 7.95L0 0Z" transform="translate(834.28 220.63)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L50.33 0L50.33 7.95L0 7.95L0 0Z" transform="translate(834.28 233.87)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L71.52 0L71.52 7.95L0 7.95L0 0Z" transform="translate(834.28 247.11)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(758.79 260.36)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(758.79 273.6)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(758.79 286.85)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L135.09 0L135.09 7.95L0 7.95L0 0Z" transform="translate(758.79 300.09)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(758.79 313.33)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(758.79 326.58)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L182.77 0L182.77 137.74L0 137.74L0 0Z" transform="translate(338.3 363.66)" id="Rectangle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L60.92 0L60.92 34.43L0 34.43L0 0Z" transform="translate(356.1799 375.58)" id="Rectangle" fill="#6C63FF" fill-opacity="0.2" stroke="none" />
+    <path d="M0 0L71.52 0L71.52 7.95L0 7.95L0 0Z" transform="translate(431.6699 375.58)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L50.33 0L50.33 7.95L0 7.95L0 0Z" transform="translate(431.6699 388.83)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L71.52 0L71.52 7.95L0 7.95L0 0Z" transform="translate(431.6699 402.0701)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(356.1799 415.3101)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(356.1799 428.5601)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(356.1799 441.8)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L135.09 0L135.09 7.95L0 7.95L0 0Z" transform="translate(356.1799 455.05)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(356.1799 468.29)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(356.1799 481.53)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L182.77 0L182.77 137.74L0 137.74L0 0Z" transform="translate(539.6099 363.66)" id="Rectangle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L60.92 0L60.92 34.43L0 34.43L0 0Z" transform="translate(557.48 375.58)" id="Rectangle" fill="#6C63FF" fill-opacity="0.2" stroke="none" />
+    <path d="M0 0L71.52 0L71.52 7.95L0 7.95L0 0Z" transform="translate(632.98 375.58)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L50.33 0L50.33 7.95L0 7.95L0 0Z" transform="translate(632.98 388.83)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L71.52 0L71.52 7.95L0 7.95L0 0Z" transform="translate(632.98 402.0701)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(557.48 415.3101)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(557.48 428.5601)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(557.48 441.8)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L135.09 0L135.09 7.95L0 7.95L0 0Z" transform="translate(557.48 455.05)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(557.48 468.29)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L147.01 0L147.01 7.95L0 7.95L0 0Z" transform="translate(557.48 481.53)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L182.77 0L182.77 137.74L0 137.74L0 0Z" transform="translate(740.9099 363.66)" id="Rectangle" fill="#000000" fill-opacity="0.1" stroke="none" />
+    <path d="M307.88 6.10352e-05L25.88 6.10352e-05C19.0225 -0.0132141 12.4412 2.70093 7.58664 7.54425C2.73204 12.3876 0.00263977 18.9626 0 25.8201L0 416.56C0.00784302 423.412 2.73811 429.98 7.58989 434.819C12.4417 439.658 19.0173 442.371 25.8696 442.36L307.87 442.36C314.722 442.371 321.298 439.658 326.149 434.819C331.001 429.981 333.732 423.412 333.74 416.56L333.74 25.8201C333.737 18.9672 331.011 12.3952 326.161 7.55225C321.311 2.70929 314.735 -0.00750732 307.881 6.10352e-05L307.88 6.10352e-05Z" transform="translate(134.1899 255.0599)" id="Shape" fill="url(#gradient_2)" stroke="none" />
+    <path d="M0 0L325.8 0L325.8 433.08L0 433.08L0 0Z" transform="translate(138.1699 260.36)" id="Rectangle" fill="#535461" stroke="none" />
+    <path d="M0 0L292.69 0L292.69 351.15L0 351.15L0 0Z" transform="translate(154.72 301.33)" id="Rectangle" fill="#F1F1F4" stroke="none" />
+    <path d="M0 3.97C0 1.77743 1.77743 0 3.97 0C6.16257 0 7.94 1.77743 7.94 3.97C7.94 6.16257 6.16257 7.94 3.97 7.94C1.77743 7.94 0 6.16257 0 3.97Z" transform="translate(295.77 276.26)" id="Circle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 11.92C0 5.33677 5.33677 0 11.92 0C18.5032 0 23.84 5.33677 23.84 11.92C23.84 18.5032 18.5032 23.84 11.92 23.84C5.33677 23.84 0 18.5032 0 11.92Z" transform="translate(287.8201 660.33)" id="Circle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L83.48 0L83.48 62.92L0 62.92L0 0Z" transform="translate(167.3701 337.21)" id="Rectangle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L27.83 0L27.83 15.73L0 15.73L0 0Z" transform="translate(175.54 342.66)" id="Rectangle" fill="#6C63FF" fill-opacity="0.2" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(210.02 342.66)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L22.99 0L22.99 3.63L0 3.63L0 0Z" transform="translate(210.02 348.71)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(210.02 354.76)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 360.8101)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 366.86)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 372.91)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L61.71 0L61.71 3.63L0 3.63L0 0Z" transform="translate(175.54 378.96)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 385.01)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 391.0601)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L83.48 0L83.48 62.92L0 62.92L0 0Z" transform="translate(259.3301 337.21)" id="Rectangle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L27.83 0L27.83 15.73L0 15.73L0 0Z" transform="translate(267.49 342.66)" id="Rectangle" fill="#6C63FF" fill-opacity="0.2" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(301.98 342.66)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L22.99 0L22.99 3.63L0 3.63L0 0Z" transform="translate(301.98 348.71)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(301.98 354.76)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 360.8101)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 366.86)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 372.91)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L61.71 0L61.71 3.63L0 3.63L0 0Z" transform="translate(267.49 378.96)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 385.01)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 391.0601)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L83.48 0L83.48 62.92L0 62.92L0 0Z" transform="translate(351.28 337.21)" id="Rectangle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L27.83 0L27.83 15.73L0 15.73L0 0Z" transform="translate(359.45 342.66)" id="Rectangle" fill="#6C63FF" fill-opacity="0.2" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(393.9299 342.66)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L22.99 0L22.99 3.63L0 3.63L0 0Z" transform="translate(393.9299 348.71)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(393.9299 354.76)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(359.45 360.8101)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(359.45 366.86)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(359.45 372.91)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L61.71 0L61.71 3.63L0 3.63L0 0Z" transform="translate(359.45 378.96)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(359.45 385.01)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(359.45 391.0601)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L83.48 0L83.48 62.92L0 62.92L0 0Z" transform="translate(167.3701 407.99)" id="Rectangle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L27.83 0L27.83 15.73L0 15.73L0 0Z" transform="translate(175.54 413.4399)" id="Rectangle" fill="#6C63FF" fill-opacity="0.2" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(210.02 413.4399)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L22.99 0L22.99 3.63L0 3.63L0 0Z" transform="translate(210.02 419.49)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(210.02 425.54)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 431.59)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 437.64)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 443.6899)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L61.71 0L61.71 3.63L0 3.63L0 0Z" transform="translate(175.54 449.74)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 455.79)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 461.84)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L83.48 0L83.48 62.92L0 62.92L0 0Z" transform="translate(259.3301 407.99)" id="Rectangle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L27.83 0L27.83 15.73L0 15.73L0 0Z" transform="translate(267.49 413.4399)" id="Rectangle" fill="#6C63FF" fill-opacity="0.2" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(301.98 413.4399)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L22.99 0L22.99 3.63L0 3.63L0 0Z" transform="translate(301.98 419.49)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(301.98 425.54)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 431.59)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 437.64)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 443.6899)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L61.71 0L61.71 3.63L0 3.63L0 0Z" transform="translate(267.49 449.74)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 455.79)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 461.84)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L83.48 0L83.48 62.92L0 62.92L0 0Z" transform="translate(351.28 407.99)" id="Rectangle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L27.83 0L27.83 15.73L0 15.73L0 0Z" transform="translate(359.45 413.4399)" id="Rectangle" fill="#6C63FF" fill-opacity="0.2" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(393.9299 413.4399)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L22.99 0L22.99 3.63L0 3.63L0 0Z" transform="translate(393.9299 419.49)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(393.9299 425.54)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(359.45 431.59)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(359.45 437.64)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(359.45 443.6899)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L61.71 0L61.71 3.63L0 3.63L0 0Z" transform="translate(359.45 449.74)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(359.45 455.79)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(359.45 461.84)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L83.48 0L83.48 62.92L0 62.92L0 0Z" transform="translate(167.3701 481.5701)" id="Rectangle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L27.83 0L27.83 15.73L0 15.73L0 0Z" transform="translate(175.54 487.02)" id="Rectangle" fill="#6C63FF" fill-opacity="0.2" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(210.02 487.02)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L22.99 0L22.99 3.63L0 3.63L0 0Z" transform="translate(210.02 493.0701)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(210.02 499.12)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 505.17)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 511.22)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 517.27)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L61.71 0L61.71 3.63L0 3.63L0 0Z" transform="translate(175.54 523.3201)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 529.37)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 535.42)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L83.48 0L83.48 62.92L0 62.92L0 0Z" transform="translate(259.3301 481.5701)" id="Rectangle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L27.83 0L27.83 15.73L0 15.73L0 0Z" transform="translate(267.49 487.02)" id="Rectangle" fill="#6C63FF" fill-opacity="0.2" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(301.98 487.02)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L22.99 0L22.99 3.63L0 3.63L0 0Z" transform="translate(301.98 493.0701)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(301.98 499.12)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 505.17)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 511.22)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 517.27)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L61.71 0L61.71 3.63L0 3.63L0 0Z" transform="translate(267.49 523.3201)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 529.37)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 535.42)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L83.48 0L83.48 62.92L0 62.92L0 0Z" transform="translate(351.28 481.5701)" id="Rectangle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L27.83 0L27.83 15.73L0 15.73L0 0Z" transform="translate(359.45 487.02)" id="Rectangle" fill="#6C63FF" fill-opacity="0.2" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(393.9299 487.02)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L22.99 0L22.99 3.63L0 3.63L0 0Z" transform="translate(393.9299 493.0701)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(393.9299 499.12)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(359.45 505.17)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(359.45 511.22)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(359.45 517.27)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L61.71 0L61.71 3.63L0 3.63L0 0Z" transform="translate(359.45 523.3201)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(359.45 529.37)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(359.45 535.42)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L83.48 0L83.48 62.92L0 62.92L0 0Z" transform="translate(167.3701 552.35)" id="Rectangle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L27.83 0L27.83 15.73L0 15.73L0 0Z" transform="translate(175.54 557.8)" id="Rectangle" fill="#6C63FF" fill-opacity="0.2" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(210.02 557.8)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L22.99 0L22.99 3.63L0 3.63L0 0Z" transform="translate(210.02 563.85)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(210.02 569.9)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 575.95)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 582)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 588.05)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L61.71 0L61.71 3.63L0 3.63L0 0Z" transform="translate(175.54 594.1)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 600.15)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(175.54 606.2)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L83.48 0L83.48 62.92L0 62.92L0 0Z" transform="translate(259.3301 552.35)" id="Rectangle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L27.83 0L27.83 15.73L0 15.73L0 0Z" transform="translate(267.49 557.8)" id="Rectangle" fill="#6C63FF" fill-opacity="0.2" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(301.98 557.8)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L22.99 0L22.99 3.63L0 3.63L0 0Z" transform="translate(301.98 563.85)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L32.67 0L32.67 3.63L0 3.63L0 0Z" transform="translate(301.98 569.9)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 575.95)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 582)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 588.05)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L61.71 0L61.71 3.63L0 3.63L0 0Z" transform="translate(267.49 594.1)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 600.15)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L67.15 0L67.15 3.63L0 3.63L0 0Z" transform="translate(267.49 606.2)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L83.48 0L83.48 62.92L0 62.92L0 0Z" transform="translate(351.28 552.35)" id="Rectangle" fill="#000000" fill-opacity="0.1" stroke="none" />
+    <path d="M159.15 3.05176e-05L14.35 3.05176e-05C6.44128 -0.0165405 0.0165482 6.38132 0 14.29L0 331.38C0.0166092 339.289 6.44137 345.687 14.3501 345.67L159.15 345.67C167.059 345.687 173.483 339.289 173.5 331.38L173.5 14.3C173.495 10.5006 171.98 6.85879 169.288 4.1767C166.597 1.4946 162.95 -0.00787354 159.15 3.05176e-05L159.15 3.05176e-05Z" transform="translate(67.96997 387.5)" id="Shape" fill="url(#gradient_3)" stroke="none" />
+    <path d="M0 0L170.85 0L170.85 341.7L0 341.7L0 0Z" transform="translate(69.30005 390.16)" id="Rectangle" fill="#535461" stroke="none" />
+    <path d="M0 0L145.68 0L145.68 278.12L0 278.12L0 0Z" transform="translate(81.87988 421.9399)" id="Rectangle" fill="#F1F1F4" stroke="none" />
+    <path d="M0 1.32C0 0.590984 0.590984 0 1.32 0C2.04902 0 2.64 0.590984 2.64 1.32C2.64 2.04902 2.04902 2.64 1.32 2.64C0.590984 2.64 0 2.04902 0 1.32Z" transform="translate(136.1799 404.73)" id="Circle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L29.14 0L29.14 2.65L0 2.65L0 0Z" transform="translate(144.1299 404.72)" id="Rectangle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 9.27C0 4.15032 4.15032 0 9.27 0C14.3897 0 18.54 4.15032 18.54 9.27C18.54 14.3897 14.3897 18.54 9.27 18.54C4.15032 18.54 0 14.3897 0 9.27Z" transform="translate(144.79 704.04)" id="Circle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L99.34 0L99.34 74.87L0 74.87L0 0Z" transform="translate(105.05 438.59)" id="Rectangle" fill="#000000" fill-opacity="0.1" stroke="none" />
+    <path d="M0 0L99.34 0L99.34 74.87L0 74.87L0 0Z" transform="translate(105.05 522.8201)" id="Rectangle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L33.11 0L33.11 18.72L0 18.72L0 0Z" transform="translate(114.77 529.3)" id="Rectangle" fill="#6C63FF" fill-opacity="0.2" stroke="none" />
+    <path d="M0 0L38.87 0L38.87 4.32L0 4.32L0 0Z" transform="translate(155.8 529.3)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L27.36 0L27.36 4.32L0 4.32L0 0Z" transform="translate(155.8 536.5)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L38.87 0L38.87 4.32L0 4.32L0 0Z" transform="translate(155.8 543.69)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L79.91 0L79.91 4.32L0 4.32L0 0Z" transform="translate(114.77 550.89)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L79.91 0L79.91 4.32L0 4.32L0 0Z" transform="translate(114.77 558.09)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L79.91 0L79.91 4.32L0 4.32L0 0Z" transform="translate(114.77 565.29)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L73.43 0L73.43 4.32L0 4.32L0 0Z" transform="translate(114.77 572.49)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L79.91 0L79.91 4.32L0 4.32L0 0Z" transform="translate(114.77 579.69)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L79.91 0L79.91 4.32L0 4.32L0 0Z" transform="translate(114.77 586.89)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L99.34 0L99.34 74.87L0 74.87L0 0Z" transform="translate(105.05 607.22)" id="Rectangle" fill="#EEEEEE" stroke="none" />
+    <path d="M0 0L33.11 0L33.11 18.72L0 18.72L0 0Z" transform="translate(114.77 613.7)" id="Rectangle" fill="#6C63FF" fill-opacity="0.2" stroke="none" />
+    <path d="M0 0L38.87 0L38.87 4.32L0 4.32L0 0Z" transform="translate(155.8 613.7)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L27.36 0L27.36 4.32L0 4.32L0 0Z" transform="translate(155.8 620.9)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L38.87 0L38.87 4.32L0 4.32L0 0Z" transform="translate(155.8 628.1)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L79.91 0L79.91 4.32L0 4.32L0 0Z" transform="translate(114.77 635.3)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L79.91 0L79.91 4.32L0 4.32L0 0Z" transform="translate(114.77 642.5)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L79.91 0L79.91 4.32L0 4.32L0 0Z" transform="translate(114.77 649.7)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L73.43 0L73.43 4.32L0 4.32L0 0Z" transform="translate(114.77 656.9)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L79.91 0L79.91 4.32L0 4.32L0 0Z" transform="translate(114.77 664.09)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M0 0L79.91 0L79.91 4.32L0 4.32L0 0Z" transform="translate(114.77 671.29)" id="Rectangle" fill="#E6E8EC" stroke="none" />
+    <path d="M37.2042 18.5201C39.037 17.026 40.3727 15.0103 41.0342 12.7401C41.5342 10.4401 40.5543 7.69012 38.3542 6.8501C35.8942 5.9101 33.2642 7.61011 31.2742 9.34009C29.2842 11.0701 26.9942 13.0301 24.3842 12.6601C27.1129 10.1866 28.343 6.46228 27.6242 2.8501C27.5114 2.11407 27.2003 1.42267 26.7242 0.850098C25.3542 -0.609924 22.8842 0.0200806 21.2442 1.1701C16.0442 4.83008 14.5942 11.8901 14.5642 18.2501C14.0442 15.9601 14.4842 13.5701 14.4642 11.2501C14.4443 8.93011 13.8043 6.25012 11.8242 5.03015C10.5964 4.37042 9.21753 4.04291 7.82422 4.08014C5.48419 3.99011 2.88422 4.23016 1.28424 5.94012C-0.715759 8.06012 -0.18573 11.6301 1.54425 13.9401C3.27423 16.2501 5.89423 17.7401 8.31427 19.3601C10.2538 20.5132 11.9082 22.089 13.1543 23.9701C13.3009 24.231 13.4214 24.5056 13.5143 24.7901L28.1643 24.7901C31.4467 23.1175 34.4875 21.0084 37.2042 18.5201L37.2042 18.5201Z" transform="translate(917.9658 602.7698)" id="Shape" fill="#6C63FF" stroke="none" />
+  </g>
+</svg>

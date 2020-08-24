@@ -16,7 +16,9 @@ const SNavbar = styled.nav`
   position: sticky;
   z-index: 30;
   top: 0;
+
   background-color: ${(props) => props.theme.colors.background};
+  background: linear-gradient(to top, #ffc7ce, #ffdde1);
   box-shadow: 1px 1px 20px -7px rgb(0 0 0 / 66%);
   & > ul {
     height: 100%;

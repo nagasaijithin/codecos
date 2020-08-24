@@ -25,7 +25,9 @@ html {
     scroll-behavior: smooth;
 }
 body {
-  background-color: ${(props) => props.theme.colors.background};
+  background: linear-gradient(to top,#ffc7ce, #ffdde1);
+
+
   font-family: 'Playfair Display', serif;
   scroll-behavior: smooth;
 /* font-family: 'Source Sans Pro', sans-serif; */

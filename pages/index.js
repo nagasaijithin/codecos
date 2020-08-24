@@ -6,6 +6,14 @@ import Ecom from "../images/ecom.svg";
 import Button from "../components/button";
 import Subtitle from "../components/subtitle";
 import Contact from "../components/contactus";
+import Link from "next/link";
+const ButtonWapper = styled.a`
+  padding: 1.5rem 2rem;
+  background-color: #0081a7;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+`;
 const MainWapper = styled.div`
   position: relative;
   z-index: 30;
@@ -84,9 +92,9 @@ const Aboutuswapper = styled.div`
 const content =
   "It should not be neglected that the accurate predictions of the operational system will require a vast knowledge. To be more specific, any part of the deep analysis makes no difference to The Assistance of Technology-Driven Idea George Albrecht in The Book of ";
 const serviesdata = [
-  { name: "Web Design", content, Svg: Webdesign, goto: "/webdesign" },
-  { name: "Web Development", content, Svg: Webdev, goto: "/webdesign" },
-  { name: "E-commerce", content, Svg: Ecom, goto: "/webdesign" },
+  { name: "Web Design", content, Svg: Webdesign, goto: "servies/[id]" },
+  { name: "Web Development", content, Svg: Webdev, goto: "servies/[id]" },
+  { name: "E-commerce", content, Svg: Ecom, goto: "servies/[id]" },
 ];
 const Home = () => (
   <MainWapper>
@@ -114,7 +122,9 @@ const Home = () => (
               <div>
                 <h2>{`${i + 1}.${name}`}</h2>
                 <p>{content}</p>
-                <Button text="View Prices" goto={goto} />
+                <Link href={goto} as={`servies/${i}`} passHref>
+                  <ButtonWapper>View Prices</ButtonWapper>
+                </Link>
               </div>
               <Svg />
             </div>
