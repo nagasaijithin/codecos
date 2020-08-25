@@ -3,6 +3,9 @@ const SubTitleWapper = styled.div`
   font-size: 3rem;
   padding: 4rem 0;
   width: 70%;
+  @media ${(props) => props.theme.media.mbL} {
+    width: 90%;
+  }
   & > p {
     font-family: ${(props) => props.theme.fonts.second};
   }

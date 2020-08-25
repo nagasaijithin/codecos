@@ -5,6 +5,7 @@ import Bottomcurv from "../images/bottomcur.svg";
 
 const MainWapper = styled.div`
   display: flex;
+  flex-direction: column;
   & > main {
     flex: 1;
     position: relative;
@@ -12,28 +13,57 @@ const MainWapper = styled.div`
 `;
 
 const SNavbar = styled.nav`
-  height: 100vh;
+  height: 15vh;
   position: sticky;
-  z-index: 30;
+  z-index: 80;
   top: 0;
-
   background-color: ${(props) => props.theme.colors.background};
   background: linear-gradient(to top, #ffc7ce, #ffdde1);
   box-shadow: 1px 1px 20px -7px rgb(0 0 0 / 66%);
+  @media ${(props) => props.theme.media.mbS} {
+    height: 12vh;
+  }
   & > ul {
     height: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     font-size: 3rem;
     list-style: none;
-    & > li > svg {
-      height: 10rem;
+    @media ${(props) => props.theme.media.laptopM} {
+      font-size: 2.5rem;
     }
-    & > li > a {
-      color: ${(props) => props.theme.colors.text};
-      text-decoration: none;
+    & > span {
+      font-size: 5rem;
+      transform: rotate(90deg);
+      font-weight: 900;
+      display: none;
+      @media ${(props) => props.theme.media.tabL} {
+        display: block;
+      }
+    }
+    & > li {
+      height: 100%;
+    }
+    & > li > svg {
+      height: 100%;
+      width: auto;
+    }
+    & > div {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      @media ${(props) => props.theme.media.tabL} {
+        display: none;
+      }
+      & > li {
+        padding: 1rem;
+        margin: 0 2rem;
+      }
+      & > li > a {
+        color: ${(props) => props.theme.colors.text};
+        text-decoration: none;
+      }
     }
   }
 `;
@@ -49,7 +79,25 @@ const Bottomcurvsty = styled(Bottomcurv)`
   right: 0;
   bottom: 0;
 `;
-
+const MblNav = styled.div``;
+const homeNavLink = [
+  {
+    linkname: "Home",
+    linkgoto: "#home",
+  },
+  {
+    linkname: "Services",
+    linkgoto: "#servies",
+  },
+  {
+    linkname: "About Us",
+    linkgoto: "#aboutus",
+  },
+  {
+    linkname: "Contact us",
+    linkgoto: "#contactus",
+  },
+];
 const LayOut = ({ children }) => {
   return (
     <MainWapper>
@@ -58,20 +106,19 @@ const LayOut = ({ children }) => {
           <li>
             <Logo />
           </li>
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#servies">Services</a>
-          </li>
-          <li>
-            <a href="#aboutus">About Us</a>
-          </li>
-          <li>
-            <a href="#contactus">Contact us</a>
-          </li>
+          <div>
+            {homeNavLink.map((data, i) => (
+              <li key={i}>
+                <a href={data.linkgoto}>{data.linkname}</a>
+              </li>
+            ))}
+          </div>
+          <span>|||</span>
         </ul>
       </SNavbar>
+      {/* <MblNav>
+
+      </MblNav> */}
       <main>
         <Topcurvsty />
         {children}

@@ -26,8 +26,18 @@ const HomeWapper = styled.section`
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
+    @media ${(props) => props.theme.media.tabM} {
+      padding: 0;
+    }
+    @media ${(props) => props.theme.media.mbL} {
+      width: 90%;
+      height: 50%;
+    }
+    @media ${(props) => props.theme.media.mbS} {
+      height: 70%;
+    }
     & > h1 {
-      font-size: 7rem;
+      font-size: 10rem;
       font-weight: 500;
     }
     & > p {
@@ -38,6 +48,9 @@ const HomeWapper = styled.section`
     height: 80%;
     width: 80%;
     padding: 4rem;
+    @media ${(props) => props.theme.media.tabM} {
+      display: none;
+    }
   }
 `;
 
@@ -54,10 +67,19 @@ const ApprochgridWapper = styled.div`
     display: flex;
     align-items: center;
     margin: 8rem 0;
-
+    @media ${(props) => props.theme.media.tabM} {
+      flex-direction: column;
+    }
+    @media ${(props) => props.theme.media.mbL} {
+      margin: 5rem 0;
+    }
     & > svg {
       width: 50%;
       height: 100%;
+      @media ${(props) => props.theme.media.mbL} {
+        width: 100%;
+        padding: 4rem;
+      }
     }
     & > div {
       display: flex;
@@ -67,6 +89,13 @@ const ApprochgridWapper = styled.div`
       font-size: 2.5rem;
       width: 60%;
       margin: 0 3rem;
+      @media ${(props) => props.theme.media.tabM} {
+        order: 2;
+      }
+      @media ${(props) => props.theme.media.mbL} {
+        width: 100%;
+        margin: 0 0;
+      }
       & > * {
         margin: 2rem 0;
       }
@@ -87,6 +116,7 @@ const PriceingWapper = styled.section`
 const PriceinggridWapper = styled.div`
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   font-size: 2.8rem;
   & > div {
     padding: 3rem;

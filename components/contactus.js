@@ -4,15 +4,25 @@ import Subtitle from "./subtitle";
 import Button from "./button";
 const ContactusWapper = styled.div`
   margin: 5rem;
+  @media ${(props) => props.theme.media.mbS} {
+    margin: 3rem;
+  }
 `;
 const Contactuscontiner = styled.div`
   display: flex;
   align-items: center;
+  & > svg {
+    @media ${(props) => props.theme.media.tabM} {
+      display: none;
+    }
+  }
   & > form {
     flex: 1;
     font-size: 2.5rem;
     margin: 0 4rem;
-
+    @media ${(props) => props.theme.media.mbS} {
+      margin: 0;
+    }
     & > div {
       display: flex;
       flex-direction: column;
