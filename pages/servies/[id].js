@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Button from "../../components/button";
 import Contact from "../../components/contactus";
 import Subtitle from "../../components/subtitle";
-import data from "../data";
+import data from "../../data";
 import { useRouter } from "next/router";
 
 const MainWapper = styled.div`
