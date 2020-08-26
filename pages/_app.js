@@ -48,17 +48,6 @@ body {
 }
  `;
 export default class MyApp extends App {
-  componentDidMount() {
-    let localState = localStorage.getItem("_theme");
-    if (localState) {
-      document.documentElement.setAttribute(
-        "data-mode",
-        JSON.parse(localState)
-      );
-    } else {
-      localStorage.setItem("_theme", JSON.stringify("light"));
-    }
-  }
   render() {
     const { Component, pageProps } = this.props;
     return (
