@@ -1,20 +1,20 @@
 /// web design using svgs
-import Webdesignsvg from "../../images/webdesign.svg";
-import Respdesign from "../../images/respdesign.svg";
-import Colorpatter from "../../images/colorpatter.svg";
-import Logodesign from "../../images/logodesign.svg";
+import Webdesignsvg from "../images/webdesign.svg";
+import Respdesign from "../images/respdesign.svg";
+import Colorpatter from "../images/colorpatter.svg";
+import Logodesign from "../images/logodesign.svg";
 
 /// web development using svgs
-import Webdev from "../../images/webdev.svg";
-import Webdevcd from "../../images/webdevcd.svg";
-import UiUx from "../../images/uiux.svg";
+import Webdev from "../images/webdev.svg";
+import Webdevcd from "../images/webdevcd.svg";
+import UiUx from "../images/uiux.svg";
 
 /// e-comers development using svgs
-import Ecom from "../../images/ecom.svg";
-import Mapp from "../../images/mbpay.svg";
-import Ecspay from "../../images/ecspay.svg";
-import Ecdev from "../../images/ecdev.svg";
-import Ecres from "../../images/ecres.svg";
+import Ecom from "../images/ecom.svg";
+import Mapp from "../images/mbpay.svg";
+import Ecspay from "../images/ecspay.svg";
+import Ecdev from "../images/ecdev.svg";
+import Ecres from "../images/ecres.svg";
 
 const apdatacont =
   "It should not be neglected that the accurate predictions of the operational system will require a vast knowledge. To be more specific, any part of the deep analysis makes no difference to The Assistance of Technology-Driven Idea George Albrecht in The Book of";
