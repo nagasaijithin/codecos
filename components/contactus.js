@@ -54,6 +54,17 @@ const Contactuscontiner = styled.div`
         border-bottom: 2px solid #ffa3c8;
       }
     }
+    & > input[type="submit"] {
+      padding: 1.5rem 2rem;
+      background-color: #0081a7;
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+      border: none;
+      @media ${(props) => props.theme.media.mbM} {
+        width: 100%;
+      }
+    }
   }
 `;
 const Contact = () => {
@@ -97,7 +108,7 @@ const Contact = () => {
               placeholder="Type you'r detiles"
             ></textarea>
           </div>
-          <Button text="Send" />
+          <input type="submit" value="Send" />
         </form>
         <Spports />
       </Contactuscontiner>

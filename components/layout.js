@@ -1,8 +1,10 @@
 import styled from "styled-components";
+import { useState } from "react";
 import Logo from "../images/logo.svg";
 import Topcurv from "../images/topcurv.svg";
 import Bottomcurv from "../images/bottomcur.svg";
 
+import { useRouter } from "next/router";
 const MainWapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -79,7 +81,38 @@ const Bottomcurvsty = styled(Bottomcurv)`
   right: 0;
   bottom: 0;
 `;
-const MblNav = styled.div``;
+const MblNav = styled.div`
+  position: fixed;
+  z-index: 100;
+  background: white;
+  width: 100%;
+  height: 100vh;
+  display: ${(props) => (props.show ? "block" : "none")};
+  & > span {
+    position: absolute;
+    z-index: 110;
+    top: 0;
+    right: 0;
+    font-size: 5rem;
+    padding: 2rem 4rem;
+    font-family: ${(props) => props.theme.fonts.second};
+  }
+  & > ul {
+    list-style: none;
+    font-size: 4rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    & > li {
+      & > a {
+        color: black;
+        text-decoration: none;
+      }
+    }
+  }
+`;
 const homeNavLink = [
   {
     linkname: "Home",
@@ -98,7 +131,29 @@ const homeNavLink = [
     linkgoto: "#contactus",
   },
 ];
+const serviceNavLink = [
+  {
+    linkname: "Home",
+    linkgoto: "#home",
+  },
+  {
+    linkname: "Approche",
+    linkgoto: "#approche",
+  },
+  {
+    linkname: "Priceing",
+    linkgoto: "#priceing",
+  },
+  {
+    linkname: "Contact us",
+    linkgoto: "#contactus",
+  },
+];
 const LayOut = ({ children }) => {
+  const [state, setState] = useState(false);
+  const router = useRouter();
+  const { id } = router.query;
+  const showLinks = id ? serviceNavLink : homeNavLink;
   return (
     <MainWapper>
       <SNavbar>
@@ -107,18 +162,25 @@ const LayOut = ({ children }) => {
             <Logo />
           </li>
           <div>
-            {homeNavLink.map((data, i) => (
+            {showLinks.map((data, i) => (
               <li key={i}>
                 <a href={data.linkgoto}>{data.linkname}</a>
               </li>
             ))}
           </div>
-          <span>|||</span>
+          <span onClick={() => setState(true)}>|||</span>
         </ul>
       </SNavbar>
-      {/* <MblNav>
-
-      </MblNav> */}
+      <MblNav show={state}>
+        <ul>
+          {showLinks.map((data, i) => (
+            <li key={i} onClick={() => setState(false)}>
+              <a href={data.linkgoto}>{data.linkname}</a>
+            </li>
+          ))}
+        </ul>
+        <span onClick={() => setState(false)}>X</span>
+      </MblNav>
       <main>
         <Topcurvsty />
         {children}

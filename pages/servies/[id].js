@@ -39,6 +39,9 @@ const HomeWapper = styled.section`
     & > h1 {
       font-size: 10rem;
       font-weight: 500;
+      @media ${(props) => props.theme.media.mbM} {
+        font-size: 7rem;
+      }
     }
     & > p {
       font-family: ${(props) => props.theme.fonts.second};
@@ -173,11 +176,11 @@ const Webdesign = () => {
           <div>
             <h1>{title}</h1>
             <p>{headcontent}</p>
-            <Button text="View plans" />
+            <Button text="View plans" goto="#priceing" />
           </div>
           <Headimg />
         </HomeWapper>
-        <ApprochWapper>
+        <ApprochWapper id="approche">
           <Subtitle title="Approch" info={approchcontent} />
 
           <ApprochgridWapper>
@@ -195,7 +198,7 @@ const Webdesign = () => {
             })}
           </ApprochgridWapper>
         </ApprochWapper>
-        <PriceingWapper>
+        <PriceingWapper id="priceing">
           <Subtitle title="Priceing" info={priceingcontent} />
           <PriceinggridWapper>
             {priceingdata.map(({ cost, extrfutr, ptitle, futrsoffer }, i) => {
