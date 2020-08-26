@@ -2,7 +2,7 @@ import App from "next/app";
 import Head from "next/head";
 import { ThemeProvider } from "styled-components";
 import { createGlobalStyle } from "styled-components";
-import Layout from "../components/Layout";
+import LayOut from "../components/layout";
 const theme = {
   colors: {
     background: "#FFF2F2",
@@ -55,10 +55,10 @@ export default class MyApp extends App {
         <Head>
           <title>Codecos</title>
         </Head>
-        <Layout>
+        <LayOut>
           <Component {...pageProps} />
           <GlobalStyle />
-        </Layout>
+        </LayOut>
       </ThemeProvider>
     );
   }
