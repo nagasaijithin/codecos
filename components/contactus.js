@@ -72,22 +72,43 @@ const Contact = () => {
     <ContactusWapper id="contactus">
       <Subtitle title="Contact us" info="Feel free Contact us" />
       <Contactuscontiner>
-        <form autoComplete="off">
+        <form
+          name="contact"
+          method="POST"
+          action="/"
+          data-netlify="true"
+          autoComplete="off"
+        >
           <div>
             <label htmlFor="name">Name</label>
-            <input type="text" id="name" placeholder="Type you'r Name" />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Type you'r Name"
+            />
           </div>
           <div>
             <label htmlFor="email">Email</label>
-            <input type="email" id="email" placeholder="Type you'r Email" />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Type you'r Email"
+            />
           </div>
           <div>
             <label htmlFor="phone">Phone</label>
-            <input type="number" id="phone" placeholder="Type you'r Phone" />
+            <input
+              type="number"
+              name="phone"
+              id="phone"
+              placeholder="Type you'r Phone"
+            />
           </div>
           <div>
             <label htmlFor="serviestype">Servies Type</label>
-            <select id="serviestype">
+            <select name="servies[]" id="serviestype">
               <option value="Web design" key="1">
                 Web design
               </option>
@@ -105,6 +126,7 @@ const Contact = () => {
               cols="30"
               id="detiles"
               rows="5"
+              name="project info"
               placeholder="Type you'r detiles"
             ></textarea>
           </div>
