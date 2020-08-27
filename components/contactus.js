@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Spports from "../images/spport.svg";
 import Subtitle from "./subtitle";
-import Button from "./button";
+
 const ContactusWapper = styled.div`
   margin: 5rem;
   @media ${(props) => props.theme.media.mbS} {
@@ -61,6 +61,7 @@ const Contactuscontiner = styled.div`
       text-decoration: none;
       border-radius: 12px;
       border: none;
+      cursor: pointer;
       @media ${(props) => props.theme.media.mbM} {
         width: 100%;
       }
@@ -75,6 +76,7 @@ const Contact = () => {
         <form
           name="contact"
           method="POST"
+          action="/success"
           data-netlify="true"
           autoComplete="off"
         >
