@@ -76,7 +76,7 @@ const Contact = () => {
         <form
           name="contact"
           method="POST"
-          action="/success"
+          action="/"
           data-netlify="true"
           autoComplete="off"
         >
