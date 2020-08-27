@@ -80,6 +80,8 @@ const Contact = () => {
           data-netlify="true"
           autoComplete="off"
         >
+          <input type="hidden" name="form-name" value="contact" />
+
           <div>
             <label htmlFor="name">Name</label>
             <input
