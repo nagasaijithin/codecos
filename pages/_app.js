@@ -1,8 +1,13 @@
 import App from "next/app";
 import Head from "next/head";
 import { ThemeProvider } from "styled-components";
+
 import { createGlobalStyle } from "styled-components";
 import LayOut from "../components/layout";
+
+import Router from "next/router";
+import withGA from "next-ga";
+
 const theme = {
   colors: {
     background: "#FFF2F2",
@@ -47,13 +52,39 @@ body {
 /* font-family: 'Source Sans Pro', sans-serif; */
 }
  `;
-export default class MyApp extends App {
+
+class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props;
     return (
       <ThemeProvider theme={theme}>
         <Head>
           <title>Codecos</title>
+
+          <meta
+            name="description"
+            content="Codecos is a serviers help your bussines live in onlie and get custmers and make it as a brand"
+          />
+          {/* og tags */}
+          <meta
+            name="og:title"
+            property="og:title"
+            content="codecos that provied live your bussines on online"
+          />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://codecos.netlify.com/" />
+          <meta property="og:description" content="code" />
+          <meta property="og:image" content="/static/logo.svg" />
+          {/* og tags end*/}
+          {/* twitter tags*/}
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://codecos.netlify.com" />
+          <meta property="twitter:title" content="codecos" />
+          <meta property="twitter:image" content="/static/logo.svg" />
+          <meta property="twitter:description" content="codecos" />
+          {/* twitter tags end*/}
+          <meta name="robots" content="index, follow" />
+          <link href="URL" rel="canonical" />
         </Head>
         <LayOut>
           <Component {...pageProps} />
@@ -63,3 +94,5 @@ export default class MyApp extends App {
     );
   }
 }
+
+export default withGA("UA-166135822-2", Router)(MyApp);
