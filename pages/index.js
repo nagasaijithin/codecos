@@ -13,6 +13,15 @@ const ButtonWapper = styled.a`
   color: white;
   text-decoration: none;
   border-radius: 12px;
+
+  box-shadow: 1px 2px 15px -5px black;
+  transition: all 0.4s ease-out;
+  &:hover {
+    color: #0081a7;
+    background-color: white;
+    box-shadow: 1px 2px 20px -5px black;
+    transform: scale(1.02);
+  }
 `;
 const MainWapper = styled.div`
   position: relative;
@@ -29,7 +38,7 @@ const HomeWapper = styled.section`
     font-size: 2.5rem;
     padding: 4rem;
     width: 70%;
-    height: 50vh;
+    height: 80%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -94,7 +103,7 @@ const SubtitlegridWapper = styled.div`
       justify-content: space-around;
       font-size: 2.5rem;
       width: 60%;
-      margin: 0 3rem;
+      margin: 7rem 3rem;
       @media ${(props) => props.theme.media.tabM} {
         order: 2;
       }
@@ -122,31 +131,55 @@ const Aboutuswapper = styled.div`
     font-family: ${(props) => props.theme.fonts.second};
   }
 `;
-const content =
-  "It should not be neglected that the accurate predictions of the operational system will require a vast knowledge. To be more specific, any part of the deep analysis makes no difference to The Assistance of Technology-Driven Idea George Albrecht in The Book of ";
 const serviesdata = [
-  { name: "Web Design", content, Svg: Webdesign, goto: "servies/[id]" },
-  { name: "Web Development", content, Svg: Webdev, goto: "servies/[id]" },
-  { name: "E-commerce", content, Svg: Ecom, goto: "servies/[id]" },
+  {
+    name: "Web Design",
+    content:
+      "We are a creative web design company known to build the most user engaging and beautiful UI designs for any type of business need. Our design experts, offer the balance of great experience and creativeness with their result oriented innovation, that attracts more traffic to your website. Use of high-end technologies makes websites more user friendly and attractive.",
+    Svg: Webdesign,
+    goto: "servies/[id]",
+  },
+  {
+    name: "Web Development",
+    content:
+      "A highly experienced web development team that takes care of each and every part of a website so that it is always effortless for the end users. We specialize in custom web programming as well as in CMS developement. Our technical team understands the requirements of today's business needs and delivers the satisfaction to our clients.",
+    Svg: Webdev,
+    goto: "servies/[id]",
+  },
+  {
+    name: "E-commerce",
+    content:
+      "No matter what kind of product you wish to market and sell, you’ve got a home here with codecos. Our specialized designs will help you draw in new customers and spread the word about your growing and expanding business, no matter what phase of the process you’re in. Marketing digitally helps you reach infinitely more customers than any other advertising method, and you’ll soon find your business booming. Easy-to-navigate site designs help you meet your ambitious sales goals and solidify your place in your industry.",
+    Svg: Ecom,
+    goto: "servies/[id]",
+  },
 ];
 const Home = () => (
   <MainWapper>
     <HomeWapper id="home">
       <div>
-        <h1>The Codecos</h1>
+        <h1>No, Drag And Drop Websites</h1>
         <p>
-          Fortunately, a supervisory action of the condition of the application
-          rules likely the existing network. Therefore, the concept of the
-          first-class pac
+          Codecos is an IT services provider focussed on providing highly
+          scalable business with innovative approaches &amp; advanced
+          Technologys. Get The Good Services From Us
         </p>
-        <Button text="Contact us" />
+        <Button text="Speak With Us" goto="contactus" />
       </div>
       <Heroimg />
     </HomeWapper>
+    <Aboutuswapper id="aboutus">
+      <Subtitle title="About us" />
+      <p>
+        We at codecos are passionate and obsessed about helping organizations
+        transform and realize the power of modern technologies. We can arm you
+        with the right tools, knowledge, and technology at the best prices
+      </p>
+    </Aboutuswapper>
     <ServiesWapper id="servies">
       <Subtitle
         title="Serviesse"
-        info="Moreover, the utilization of the mechanism should help in resolving present challenges. What is more, the raw draft of the "
+        info="at codecos, we focus on bringing your ideas to life."
       />
       <SubtitlegridWapper>
         {serviesdata.map(({ name, Svg, content, goto }, i) => {
@@ -156,7 +189,7 @@ const Home = () => (
                 <h2>{`${i + 1}.${name}`}</h2>
                 <p>{content}</p>
                 <Link href={goto} as={`servies/${i}`} passHref>
-                  <ButtonWapper>View Prices</ButtonWapper>
+                  <ButtonWapper>View Plans</ButtonWapper>
                 </Link>
               </div>
               <Svg />
@@ -165,20 +198,6 @@ const Home = () => (
         })}
       </SubtitlegridWapper>
     </ServiesWapper>
-    <Aboutuswapper id="aboutus">
-      <Subtitle title="About us" info="" />
-      <p>
-        "To be quite frank, elements of the software engineering concepts and
-        practices can be regarded as remotely insignificant. The sources and
-        influences of the independent knowledge presumably the primary element.
-        It should rather be regarded as an integral part of the technical terms
-        the strategic decisions and The Facility of Relational Index" (Jude
-        Bartley in The Book of the Major Outcomes) Conversely, with the
-        exception of the skills the operations research. The real reason of the
-        continuing enhancement doctrine successfully the sources and influences
-        of the application rules.
-      </p>
-    </Aboutuswapper>
     <Contact />
   </MainWapper>
 );

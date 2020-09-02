@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Logo from "../images/logo.svg";
 import Topcurv from "../images/topcurv.svg";
 import Bottomcurv from "../images/bottomcur.svg";
@@ -16,12 +16,12 @@ const MainWapper = styled.div`
 
 const SNavbar = styled.nav`
   height: 15vh;
-  position: sticky;
   z-index: 80;
   top: 0;
-  background-color: ${(props) => props.theme.colors.background};
-  background: linear-gradient(to top, #ffc7ce, #ffdde1);
-  box-shadow: 1px 1px 20px -7px rgb(0 0 0 / 66%);
+  /* position: sticky; */
+  /* background-color: ${(props) => props.theme.colors.background}; */
+  /* background: linear-gradient(to top, #ffc7ce, #ffdde1); */
+  /* box-shadow: 1px 1px 20px -7px rgb(0 0 0 / 66%); */
   @media ${(props) => props.theme.media.mbS} {
     height: 12vh;
   }
@@ -70,11 +70,12 @@ const SNavbar = styled.nav`
   }
 `;
 const Topcurvsty = styled(Topcurv)`
-  width: 70%;
+  width: 80vw;
   height: auto;
   position: absolute;
   z-index: 10;
   left: -20px;
+  top: -4%;
 `;
 const Bottomcurvsty = styled(Bottomcurv)`
   position: absolute;
@@ -119,13 +120,14 @@ const homeNavLink = [
     linkgoto: "#home",
   },
   {
-    linkname: "Services",
-    linkgoto: "#servies",
-  },
-  {
     linkname: "About Us",
     linkgoto: "#aboutus",
   },
+  {
+    linkname: "Services",
+    linkgoto: "#servies",
+  },
+
   {
     linkname: "Contact us",
     linkgoto: "#contactus",
@@ -150,13 +152,29 @@ const serviceNavLink = [
   },
 ];
 const LayOut = ({ children }) => {
+  const ref = useRef("");
+  useEffect(() => {
+    window.onscroll = function () {
+      if (window.pageYOffset >= 200) {
+        ref.current.style.position = "sticky";
+        ref.current.style.background =
+          "linear-gradient(to top, #ffc7ce, #ffdde1)";
+        ref.current.style.boxShadow = "1px 1px 20px -7px rgb(0 0 0 / 66%)";
+      } else {
+        ref.current.style.position = "unset";
+        ref.current.style.backgroundColor = "transparent";
+        ref.current.style.background = "transparent";
+        ref.current.style.boxShadow = "none";
+      }
+    };
+  }, [ref]);
   const [state, setState] = useState(false);
   const router = useRouter();
   const { id } = router.query;
   const showLinks = id ? serviceNavLink : homeNavLink;
   return (
     <MainWapper>
-      <SNavbar>
+      <SNavbar ref={ref}>
         <ul>
           <li>
             <Logo />

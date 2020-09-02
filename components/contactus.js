@@ -62,6 +62,15 @@ const Contactuscontiner = styled.div`
       border-radius: 12px;
       border: none;
       cursor: pointer;
+      font-size: 2.5rem;
+      box-shadow: 1px 2px 15px -5px black;
+      transition: all 0.4s ease-out;
+      &:hover {
+        color: #0081a7;
+        background-color: white;
+        box-shadow: 1px 2px 20px -5px black;
+        transform: scale(1.02);
+      }
       @media ${(props) => props.theme.media.mbM} {
         width: 100%;
       }
@@ -71,7 +80,10 @@ const Contactuscontiner = styled.div`
 const Contact = () => {
   return (
     <ContactusWapper id="contactus">
-      <Subtitle title="Contact us" info="Feel free Contact us" />
+      <Subtitle
+        title="Contact us"
+        info="Have a project? Contact us and let's work together!"
+      />
       <Contactuscontiner>
         <form
           name="contact"
@@ -130,10 +142,10 @@ const Contact = () => {
               id="detiles"
               rows="5"
               name="project info"
-              placeholder="Type you'r detiles"
+              placeholder="Type you'r project details"
             ></textarea>
           </div>
-          <input type="submit" value="Send" />
+          <input type="submit" value="let's talk" />
         </form>
         <Spports />
       </Contactuscontiner>

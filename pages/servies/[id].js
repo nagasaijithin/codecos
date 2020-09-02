@@ -21,7 +21,7 @@ const HomeWapper = styled.section`
     font-size: 2.5rem;
     padding: 4rem;
     width: 70%;
-    height: 50vh;
+    height: 80%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -176,7 +176,7 @@ const Webdesign = () => {
           <div>
             <h1>{title}</h1>
             <p>{headcontent}</p>
-            <Button text="View plans" goto="#priceing" />
+            <Button text="View plans" goto={`/servies/${id}/#priceing`} />
           </div>
           <Headimg />
         </HomeWapper>
