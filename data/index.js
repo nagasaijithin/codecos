@@ -22,32 +22,32 @@ export default [
   {
     title: "Web Design",
     headcontent:
-      "Fortunately, a supervisory action of the condition of the application rules likely the existing network. Therefore, the concept of the first-class pac",
+      "We are Codecos, a leading Creative Web Design Agency in India. From our Codecos, we specialise in Creative Websites and Digital Marketing.",
     Headimg: Webdesignsvg,
     approchcontent:
-      "Moreover, the utilization of the mechanism should help in resolving present challenges. What is more, the raw draft of the",
+      "Are you a small business that needs to get started? Do you want your business to outshine in the world of digital marketing? Welcome to CodeCos...we will provide best designs that suites to your business or for your budjet Because your business is unique, your website and online presence should represent who you are, what you offer, and how you work. Our web design and development process uncovers your goals, your competitors, and what sets you apart",
     approchdata: [
       {
         name: "Good Color Pattren",
-        content: apdatacont,
+        content: "Color plays an important role in how we perceive the world around us. From the dark gloomy clouds that tell us it’s about to rain, to the green light that indicates it’s safe to cross the road, its influence is so deeply ingrained in everyday life, that often we barely notice it.Selecting a color scheme for a project website is not always easy. Codecos will offer you huge colour combination such as newest , most popular etc.",
         Svg: Colorpatter,
         goto: "#contactus",
       },
       {
         name: "Responsive Design",
-        content: apdatacont,
+        content: "Almost every new client these days wants a mobile version of their website. It’s practically essential after all: one design for the BlackBerry, another for the iPhone, , desktops — and all screen resolutions must be compatible, too. Screen sizes are always changing, so it's important that your site can adapt to any screen size, today or in the future. In addition, devices have different features with which we interact with them. For example some of your visitors will be using a touchscreen. Modern responsive design considers all of these things to optimize the experience for everyone. from ",
         Svg: Respdesign,
         goto: "#contactus",
       },
       {
         name: "Logo Design",
-        content: apdatacont,
+        content: "Codecos agency that expertize in designing amazing logos for small and medium-sized businesses. Our team is a dedicated group of logo designers, capable of delivering professional logo design as per your needs. . We ensure all our work is original and of superior quality when it comes to custom logo designing for various types of logos; iconic logos, landmarks, monograms and emblems - we have it all. you can use this to your advantage to ensure their first impression of your brand is a positive and memorable one.",
         Svg: Logodesign,
         goto: "#contactus",
       },
     ],
     priceingcontent:
-      "Moreover, the utilization of the mechanism should help in resolving present challenges. What is more, the raw draft of the ",
+      "Whether you just need a low and accurate website that looks great or you’re ready for more business-building capabilities . we have a plan for you",
     priceingdata: [
       {
         ptitle: "BRONZE",
@@ -98,32 +98,32 @@ export default [
   {
     title: "Web Development",
     headcontent:
-      "Fortunately, a supervisory action of the condition of the application rules likely the existing network. Therefore, the concept of the first-class pac",
+      "Building cutting edge websites that encompass the latest technology.",
     Headimg: Webdev,
     approchcontent:
-      "Moreover, the utilization of the mechanism should help in resolving present challenges. What is more, the raw draft of the",
+      "Are you a small business that needs to get started? Do you want your business to outshine in the world of digital marketing? Welcome to CodeCos...we will provide best designs that suites to your business or for your budjet Because your business is unique, your website and online presence should represent who you are, what you offer, and how you work. Our web design and development process uncovers your goals, your competitors, and what sets you apart",
     approchdata: [
       {
         name: "Coustem Development",
-        content: apdatacont,
+        content: "We offer custom web development, web design, user experience and usability for large and small businesses. Whether you’re looking to start a website from scratch, website redesign or want to digital marketing for existing website",
         Svg: Webdevcd,
         goto: "#contactus",
       },
       {
         name: "Responsive Development",
-        content: apdatacont,
+        content: "Our codecos web development company creates beautiful websites that look good ondesktops , laptops, tablets ,smartphone , we also do on page seo task at beginning of project and for small business owners looking to increase organic traffic in Google",
         Svg: Respdesign,
         goto: "#contactus",
       },
       {
         name: "Ui/UX Development",
-        content: apdatacont,
+        content: "Codecos is the best UX/UI services provider in India and other countries specializing in handcrafting beautiful UI / UX designs that meet our client’s vision and goals. Graphic design is a creative process, involving a client and a designer to convey a specific message to a target audience.",
         Svg: UiUx,
         goto: "#contactus",
       },
     ],
     priceingcontent:
-      "Moreover, the utilization of the mechanism should help in resolving present challenges. What is more, the raw draft of the ",
+      "Whether you just need a low and accurate website that looks great or you’re ready for more business-building capabilities . we have a plan for you",
     priceingdata: [
       {
         ptitle: "BRONZE",
@@ -174,20 +174,20 @@ export default [
   {
     title: "E-commerce",
     headcontent:
-      "Fortunately, a supervisory action of the condition of the application rules likely the existing network. Therefore, the concept of the first-class pac",
+      " we have the in-house skills and experience to deliver a successful E-Commerce project for your business.",
     Headimg: Ecom,
     approchcontent:
-      "Moreover, the utilization of the mechanism should help in resolving present challenges. What is more, the raw draft of the",
+      "Are you a small business that needs to get started? Do you want your business to outshine in the world of digital marketing? Welcome to CodeCos...we will provide best designs that suites to your business or for your budjet Because your business is unique, your website and online presence should represent who you are, what you offer, and how you work. Our web design and development process uncovers your goals, your competitors, and what sets you apart",
     approchdata: [
       {
         name: "Coustem Development",
-        content: apdatacont,
+        content: "We offer custom web development, web design, user experience and usability for large and small businesses. Whether you’re looking to start a website from scratch, website redesign or want to digital marketing for existing website",
         Svg: Ecdev,
         goto: "#contactus",
       },
       {
         name: "Responsive Development",
-        content: apdatacont,
+        content: "Our codecos web development company creates beautiful websites that look good ondesktops , laptops, tablets ,smartphone , we also do on page seo task at beginning of project and for small business owners looking to increase organic traffic in Google",
         Svg: Ecres,
         goto: "#contactus",
       },
@@ -205,7 +205,7 @@ export default [
       },
     ],
     priceingcontent:
-      "Moreover, the utilization of the mechanism should help in resolving present challenges. What is more, the raw draft of the ",
+      "Whether you just need a low and accurate website that looks great or you’re ready for more business-building capabilities . we have a plan for you",
     priceingdata: [
       {
         ptitle: "BRONZE",

@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import Logo from "../images/logo.svg";
 import Topcurv from "../images/topcurv.svg";
 import Bottomcurv from "../images/bottomcur.svg";
+import Link from "next/link";
 
 import { useRouter } from "next/router";
 const MainWapper = styled.div`
@@ -117,15 +118,15 @@ const MblNav = styled.div`
 const homeNavLink = [
   {
     linkname: "Home",
-    linkgoto: "#home",
+    linkgoto: "/#home",
   },
   {
     linkname: "About Us",
-    linkgoto: "#aboutus",
+    linkgoto: "/#aboutus",
   },
   {
     linkname: "Services",
-    linkgoto: "#servies",
+    linkgoto: "/#servies",
   },
 
   {
@@ -133,24 +134,7 @@ const homeNavLink = [
     linkgoto: "#contactus",
   },
 ];
-const serviceNavLink = [
-  {
-    linkname: "Home",
-    linkgoto: "#home",
-  },
-  {
-    linkname: "Approche",
-    linkgoto: "#approche",
-  },
-  {
-    linkname: "Priceing",
-    linkgoto: "#priceing",
-  },
-  {
-    linkname: "Contact us",
-    linkgoto: "#contactus",
-  },
-];
+
 const LayOut = ({ children }) => {
   const ref = useRef("");
   useEffect(() => {
@@ -159,6 +143,7 @@ const LayOut = ({ children }) => {
         ref.current.style.position = "sticky";
         ref.current.style.background =
           "linear-gradient(to top, #ffc7ce, #ffdde1)";
+        
         ref.current.style.boxShadow = "1px 1px 20px -7px rgb(0 0 0 / 66%)";
       } else {
         ref.current.style.position = "unset";
@@ -171,16 +156,17 @@ const LayOut = ({ children }) => {
   const [state, setState] = useState(false);
   const router = useRouter();
   const { id } = router.query;
-  const showLinks = id ? serviceNavLink : homeNavLink;
   return (
     <MainWapper>
       <SNavbar ref={ref}>
         <ul>
           <li>
+          <Link href={"/"}>
             <Logo />
+            </Link>
           </li>
           <div>
-            {showLinks.map((data, i) => (
+            {homeNavLink.map((data, i) => (
               <li key={i}>
                 <a href={data.linkgoto}>{data.linkname}</a>
               </li>
@@ -191,7 +177,7 @@ const LayOut = ({ children }) => {
       </SNavbar>
       <MblNav show={state}>
         <ul>
-          {showLinks.map((data, i) => (
+          {homeNavLink.map((data, i) => (
             <li key={i} onClick={() => setState(false)}>
               <a href={data.linkgoto}>{data.linkname}</a>
             </li>

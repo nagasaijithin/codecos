@@ -159,7 +159,10 @@ const Webdesign = () => {
   const router = useRouter();
   const { id } = router.query;
   if (id) {
-    const rdata = data.filter((dt, i) => Number(id) === i);
+    const rdata = data.filter((dt, i) => {
+      let cleanid = id.replace('-', " ")
+      let cleantitle = dt.title.replace('-', " ")
+      return cleantitle === cleanid});
     const {
       title,
       headcontent,

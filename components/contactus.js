@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { useState, useEffect } from 'react';
+
 import Spports from "../images/spport.svg";
 import Subtitle from "./subtitle";
 
@@ -78,7 +80,19 @@ const Contactuscontiner = styled.div`
   }
 `;
 const Contact = () => {
+  const [success, setSuccess] = useState(false);
+  useEffect(() => {
+    if ( window.location.search.includes('success=true') ) {
+      setSuccess(true);
+    }
+  }, []);
   return (
+    <>
+    {success && (
+  <p style={{ color: 'green'}}>
+    Successfully submitted form!
+  </p>
+)}
     <ContactusWapper id="contactus">
       <Subtitle
         title="Contact us"
@@ -88,7 +102,7 @@ const Contact = () => {
         <form
           name="contact"
           method="POST"
-          action="/"
+          action="/?success=true"
           data-netlify="true"
           autoComplete="off"
         >
@@ -100,7 +114,8 @@ const Contact = () => {
               type="text"
               name="name"
               id="name"
-              placeholder="Type you'r Name"
+              placeholder="Type you are Name"
+              required
             />
           </div>
           <div>
@@ -109,7 +124,8 @@ const Contact = () => {
               type="email"
               name="email"
               id="email"
-              placeholder="Type you'r Email"
+              placeholder="Type you are Email"
+              required
             />
           </div>
           <div>
@@ -118,7 +134,8 @@ const Contact = () => {
               type="number"
               name="phone"
               id="phone"
-              placeholder="Type you'r Phone"
+              placeholder="Type you are Phone"
+              required
             />
           </div>
           <div>
@@ -142,14 +159,18 @@ const Contact = () => {
               id="detiles"
               rows="5"
               name="project info"
-              placeholder="Type you'r project details"
+              placeholder="Type you are project details"
+              required
             ></textarea>
           </div>
+          <div data-netlify-recaptcha="true"></div>
+
           <input type="submit" value="let's talk" />
         </form>
         <Spports />
       </Contactuscontiner>
     </ContactusWapper>
+    </>
   );
 };
 
