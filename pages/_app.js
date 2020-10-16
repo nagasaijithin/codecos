@@ -60,28 +60,29 @@ class MyApp extends App {
       <ThemeProvider theme={theme}>
         <Head>
           <title>Codecos</title>
+          <meta name="keywords" content="web design in nellore, codecos in nellore, codecos in ap, codecos in andhra pradesh, CODECOS, web development company in nellore, lost cost web design company, nellore, webdesign agency in nellore" />
 
           <meta
             name="description"
-            content="Codecos is a serviers help your bussines live in onlie and get custmers and make it as a brand"
+            content="Codecos is an IT services provider focussed on providing highly scalable business with innovative approaches and advanced Technologys. Get The Good Services From Us"
           />
           {/* og tags */}
           <meta
             name="og:title"
             property="og:title"
-            content="codecos that provied live your bussines on online"
+            content="Codecos is an IT services provider focussed on providing highly scalable business with innovative approaches and advanced Technologys. Get The Good Services From Us"
           />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://codecos.netlify.com/" />
-          <meta property="og:description" content="code" />
+          <meta property="og:url" content="https://codecos.tk/" />
+          <meta property="og:description" content="Codecos is an IT services provider focussed on providing highly scalable business with innovative approaches and advanced Technologys. Get The Good Services From Us" />
           <meta property="og:image" content="/static/logo.svg" />
           {/* og tags end*/}
           {/* twitter tags*/}
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://codecos.netlify.com" />
+          <meta property="twitter:url" content="https://codecos.tk" />
           <meta property="twitter:title" content="codecos" />
           <meta property="twitter:image" content="/static/logo.svg" />
-          <meta property="twitter:description" content="codecos" />
+          <meta property="twitter:description" content="Codecos is an IT services provider focussed on providing highly scalable business with innovative approaches and advanced Technologys. Get The Good Services From Us" />
           {/* twitter tags end*/}
           <meta name="robots" content="index, follow" />
           <link href="URL" rel="canonical" />

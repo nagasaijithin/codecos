@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import Head from "next/head";
 import Button from "../../components/button";
 import Contact from "../../components/contactus";
 import Subtitle from "../../components/subtitle";
@@ -175,6 +175,34 @@ const Webdesign = () => {
 
     return (
       <MainWapper>
+        <Head>
+    <title>{title}</title>
+    <meta
+            name="description"
+            content={headcontent}
+          />
+          <meta name="keywords" content="web design in nellore, codecos in nellore, codecos in ap, codecos in andhra pradesh, CODECOS, web development company in nellore, lost cost web design company, nellore, webdesign agency in nellore, e-commerce web desgin company in nellore,web development in nellore, web design in nellore, digital marketing agency in nellore" />
+          {/* og tags */}
+          <meta
+            name="og:title"
+            property="og:title"
+            content={headcontent}
+          />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content={`https://codecos.tk/servies/${id}`} />
+          <meta property="og:description" content={headcontent} />
+          <meta property="og:image" content="/static/logo.svg" />
+          {/* og tags end*/}
+          {/* twitter tags*/}
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content={`https://codecos.tk/servies/${id}`} />
+          <meta property="twitter:title" content={id} />
+          <meta property="twitter:image" content="/static/logo.svg" />
+          <meta property="twitter:description" content={headcontent} />
+          {/* twitter tags end*/}
+          <meta name="robots" content="index, follow" />
+          <link href="URL" rel="canonical" />
+        </Head>
         <HomeWapper id="home">
           <div>
             <h1>{title}</h1>
