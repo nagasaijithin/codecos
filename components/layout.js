@@ -56,12 +56,21 @@ const SNavbar = styled.nav`
       display: flex;
       align-items: center;
       justify-content: space-around;
+      height: 100%;
+
       @media ${(props) => props.theme.media.tabL} {
         display: none;
       }
       & > li {
         padding: 1rem;
         margin: 0 2rem;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        transition:all .1s ease-in;
+          &:hover{
+            border-bottom: 5px solid #0081a7;
+          }
       }
       & > li > a {
         color: ${(props) => props.theme.colors.text};
