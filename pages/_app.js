@@ -86,6 +86,7 @@ class MyApp extends App {
           {/* twitter tags end*/}
           <meta name="robots" content="index, follow" />
           <link href="URL" rel="canonical" />
+          <meta name="google-site-verification" content="CUN-yBXGGkp1yKtEyw4rLBBnYQCIjZ3Naxl52HhBXfs" />
         </Head>
         <LayOut>
           <Component {...pageProps} />
