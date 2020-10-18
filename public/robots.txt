@@ -1,0 +1,7 @@
+# https://www.robotstxt.org/robotstxt.html
+User-Agent: *
+Allow: /
+Disallow: /servies/URL
+
+Sitemap: https://www.codecos.tk/sitemap.xml
+
