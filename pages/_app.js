@@ -85,7 +85,7 @@ class MyApp extends App {
           <meta property="twitter:description" content="Codecos is an IT services provider focussed on providing highly scalable business with innovative approaches and advanced Technologys. Get The Good Services From Us" />
           {/* twitter tags end*/}
           <meta name="robots" content="index, follow" />
-          <link href="URL" rel="canonical" />
+          <link href="URL" rel="https://codecos.tk/" />
           <meta name="google-site-verification" content="CUN-yBXGGkp1yKtEyw4rLBBnYQCIjZ3Naxl52HhBXfs" />
         </Head>
         <LayOut>
